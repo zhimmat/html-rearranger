@@ -1,0 +1,25 @@
+repo: "html-rearranger"
+canvasCourse: "467503"
+canvasAssignment: "4202549"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    locked: true
+
+js:
+  - path: "js/main.js"
+    valid: true
+    bestPractices: true
+    search:
+      - "Below ground veggies"
+      - "Above ground veggies"
+      - "\\$\\("
+    search_not:
+      - 'document\\.write\\('
+
+screenshots:
+  - path: "index.html"
+    sizes: [320]
