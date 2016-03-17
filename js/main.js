@@ -9,3 +9,13 @@ $('body').prepend($oneH1);
 $('body').append($belowveggies);
 $aboveH1.html('Above ground veggies');
 $('body').append($aboveH1);
+
+$('body').append($aboveveggies);
+
+$('ul li').each(function () {
+  if ($(this).hasClass('below')) {
+    $belowveggies.append($(this));
+  } else {
+    $aboveveggies.append($(this));
+  }
+});
